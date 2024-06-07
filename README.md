@@ -2,10 +2,6 @@
   <img src="https://github.com/Vasanthabalaji01/AWS-Projects/blob/main/AWS%20Project%20-%20%20image/Finally%20found%20me.jpg" alt="you found me!">
 </p>
 
-# Azure Projects
-1. [Azure Cloud Resume](/Azure-Resume-Challenge)
-
-
 # Core Azure Services
 
 ## Azure Virtual Machines (VMs)
