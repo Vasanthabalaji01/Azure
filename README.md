@@ -1,57 +1,56 @@
-<p align="Center">
-  <img src="https://github.com/Vasanthabalaji01/AWS-Projects/blob/main/AWS%20Project%20-%20%20image/Finally%20found%20me.jpg" alt="you found me!">
-</p>
+![Finaly you found me](<docs/img/Finally found me.jpg>)
 
-# Core Azure Services
 
-## Azure Virtual Machines (VMs)
+    **- Compute (Azure):** (**Core**)
+      - Virtual Machines
+      - Azure Batch (for large-scale parallel processing)
+      - Container Instances (serverless containers)
+      - Container Apps (build, deploy, and manage containerized apps)
+      - Kubernetes Service (managed Kubernetes orchestration)
+      - Virtual Desktop (deliver desktops and applications in the cloud)
+      - VM Scale Sets (manage a group of identical VMs)
+      - Azure Arc (hybrid cloud management)
+    **- Storage (Azure):** (**Core**)
+      - Azure NetApp Files (high-performance file storage)
+      - Azure Files (cloud-based file shares)
+      - Managed Disks (managed storage for VMs)
+      - Data Lake Storage (for big data analytics)
+    **- Databases (Azure):** (**Core**)
+      - MySQL Database
+      - MariaDB Database
+      - PostgreSQL Database
+      - SQL Database (relational database)
+      - Cosmos DB (NoSQL database for globally distributed data)
+    **- Networking (Azure):** (**Core**)
+      - Application Gateway (manage web traffic)
+      - CDN (deliver content globally with high performance)
+      - DNS (domain name system for assigning names to IP addresses)
+      - Firewall (secure your virtual network)
+      - Load Balancer (distribute traffic across multiple VMs)
+      - Virtual Network (collection of VMs communicating securely)
+      - VPN Gateway (create a secure connection to your on-premises network)
+    **- Management & Governance (Azure):** (**Core**)
+      - Automation (automate tasks and processes)
+      - Advisor (recommendations for optimizing your Azure resources)
+      - Monitor (monitor resource health and performance)
+      - Policy (create and enforce policies for your Azure resources)
+      - Cost Management (manage and optimize your Azure spending)
+      - Defender for Cloud (security threat detection and remediation)
+    **- AI & Machine Learning (Azure):** (**Core - selective**)
+      - AI Services (incl. Cognitive Services for pre-built AI functionalities)
+      - Azure Databricks (Apache Spark for data analytics)
+      - Machine Learning (build, train, and deploy machine learning models)
+    **- Analytics (Azure):** (**Core - selective**)
+      - Data Explorer (fast and scalable data exploration)
+      - Data Factory (orchestrate data movement and transformation)
+      - Databricks (refer to AI & Machine Learning)
+      - HDInsight (managed Hadoop and Spark clusters for big data processing)
+      - Synapse Analytics (unified analytics for data warehousing and business intelligence)
+      - Time Series Insights (analyze time series data)
+    **- Development & DevOps (Azure):** (**Core - selective**)
+      - API Management (publish, manage, and secure APIs)
+      - App Configuration (manage application settings)
+      - App Service (build and deploy web apps, mobile backends, and APIs)
+      - Azure DevOps (set up continuous integration and delivery pipelines)
+      - Functions (serverless functions for event-driven applications)
 
-## Azure Functions
-
-## Azure Load Balancer
-
-## Azure Autoscale
-
-## Azure Managed Disks
-
-## Azure Blob Storage
-
-## Azure Archive Storage
-
-## Azure Data Box Gateway (similar functionality)
-
-## Azure Files
-
-## Azure SQL Database (managed relational database)
-
-## Azure Managed Instance for PostgreSQL or MySQL (managed relational database for open-source engines)
-
-## Azure Cosmos DB (NoSQL database)
-
-## Azure Redis Cache (in-memory data store)
-
-## Azure Virtual Network (VNet)
-
-## Azure Network Security Group (NSG)
-
-## Azure DNS
-
-## Azure Active Directory (AAD)
-
-## Azure Monitor
-
-## Azure Monitor Logs
-
-## Azure Event Hubs (for ingesting data streams)
-
-## Azure Content Delivery Network (CDN)
-
-## Azure Queue Storage
-
-## Azure Event Grid
-
-## Azure Logic Apps (for workflow automation)
-
-## Azure Resource Manager (ARM) for infrastructure as code
-
-## Azure Automation (for managing configurations and deployments)

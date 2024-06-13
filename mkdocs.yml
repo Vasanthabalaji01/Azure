@@ -1,0 +1,99 @@
+site_name: Azure Project
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: light-blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light-blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  logo: img/Mr.Cloudexplorer_logo.png
+  favicon: img/Mr.Cloudexplorer_logo.png
+  features:
+    - navigation.instant
+    - header.autohide
+    - navigation.tabs
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Core Services:
+      - Compute:
+          - Virtual Machines: 'Azure_service/compute/vm/vm.md'
+          - Azure Batch: 'Azure_service/compute/azure_batch/azure_batch.md'
+          - Container Instances: 'Azure_service/compute/container_instances/container_instances.md'
+          - Container Apps: 'Azure_service/compute/container_app/container_app.md'
+          - Kubernetes Service: 'Azure_service/compute/kubernetes_service/kubernetes_service.md'
+          - Virtual Desktop: 'Azure_service/compute/virtual_desktop/virtual_desktop.md'
+          - VM Scale Sets: 'Azure_service/compute/vm_scale/vm_scale.md'
+          - Azure Arc: 'Azure_service/compute/azure_arc/azure_arc.md'
+      - Storage:
+          - Azure NetApp Files: ''
+          - Azure Files: ''
+          - Managed Disks: ''
+          - Data Lake Storage: ''
+          - Databases: ''
+          - MySQL Database: ''
+          - MariaDB Database: ''
+          - PostgreSQL Database: ''
+          - SQL Database: ''
+          - Cosmos DB: ''
+      - Networking:
+          - Application Gateway: ''
+          - CDN: ''
+          - DNS: ''
+          - Firewall: ''
+          - Load Balancer: ''
+          - Virtual Network: ''
+          - VPN Gateway: ''
+      - Management & Governance:
+          - Automation: ''
+          - Advisor: ''
+          - Monitor: ''
+          - Policy: ''
+          - Cost Management: ''
+          - Defender for Cloud: ''
+      - AI & Machine Learning:
+          - AI Services: ''
+          - Azure Databricks: ''
+          - Machine Learning: ''
+      - Analytics:
+          - Data Explorer: ''
+          - Data Factory: ''
+          - Databricks: ''
+          - HDInsight: ''
+          - Synapse Analytics: ''
+          - Time Series Insights: ''
+      - Development & DevOps:
+          - API Management: ''
+          - App Configuration: ''
+          - App Service: ''
+          - Azure DevOps: ''
+          - Functions: ''
+  - Architecture:
+      - Intro: Cloud_Architecture/intro.md
+      - One-Tier: Cloud_Architecture/One_Tier/one_tier.md
+      - Two-Tier: Cloud_Architecture/Two_Tier/two_tier.md
+      - Three-Tier: Cloud_Architecture/Three_Tier/three_tier.md
+      - N-Tier: Cloud_Architecture/N_Tier/n_tier.md
+      - Serverless: Cloud_Architecture/Serverless/serverless.md
+      - Microservices: Cloud_Architecture/Microservices/microservices.md
+      - Event-Driven: Cloud_Architecture/Event_Driven/event_driven.md
+      - Hybrid: Cloud_Architecture/Hybrid/hybrid.md
+  - Security:
+      - Intro: Cloud_Security/intro.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Vasanthabalaji01
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/vasanthabalaji
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/mrcloudexplorer
