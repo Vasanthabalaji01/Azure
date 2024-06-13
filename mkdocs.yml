@@ -24,6 +24,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Core Services:
+      - Intro: Azure_service/intro.md
       - Compute:
           - Virtual Machines: 'Azure_service/compute/vm/vm.md'
           - Azure Batch: 'Azure_service/compute/azure_batch/azure_batch.md'
