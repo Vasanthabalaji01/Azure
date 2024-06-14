@@ -1,4 +1,4 @@
-site_name: Azure Project
+site_name: Azure
 
 repo_url: https://github.com/Vasanthabalaji01/Azure
 
@@ -82,7 +82,7 @@ nav:
           - Azure DevOps: 'Azure_service/development_and_devops/azure_devops/azure_devops.md'
           - Functions: 'Azure_service/development_and_devops/functions/functions.md'
   - Architecture:
-      - Intro: Cloud_Architecture/intro.md
+      - Index: Cloud_Architecture/intro.md
       - One-Tier: Cloud_Architecture/One_Tier/one_tier.md
       - Two-Tier: Cloud_Architecture/Two_Tier/two_tier.md
       - Three-Tier: Cloud_Architecture/Three_Tier/three_tier.md
